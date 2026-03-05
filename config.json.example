@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "name": "Main Project",
+      "key": "PRJ",
+      "board_id": "1",
+      "enabled": true,
+      "description": "Primary development project"
+    },
+    {
+      "name": "Infrastructure",
+      "key": "INFRA",
+      "board_id": "2",
+      "enabled": true,
+      "description": "Infrastructure and DevOps tasks"
+    },
+    {
+      "name": "Support",
+      "key": "SUP",
+      "board_id": "",
+      "enabled": false,
+      "description": "Customer support tickets"
+    }
+  ],
+  "settings": {
+    "aggregate_reports": true,
+    "default_max_results": 200,
+    "stale_threshold_days": 7,
+    "aging_threshold_days": 14
+  }
+}
